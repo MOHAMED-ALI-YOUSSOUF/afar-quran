@@ -11,7 +11,7 @@
 ---
 
 ## Site en ligne
-[tafsir-hamad.vercel.app](https://tafsir-hamad.vercel.app)
+[afar-quran.vercel.app](https://afar-quran.vercel.app)
 
 ---
 
@@ -32,9 +32,10 @@
 ## Captures d’écran
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/mohamedaliyoussouf/tafsir-app/main/screenshots/home.jpg" width="32%" />
-  <img src="https://raw.githubusercontent.com/mohamedaliyoussouf/tafsir-app/main/screenshots/player.jpg" width="32%" />
-  <img src="https://raw.githubusercontent.com/mohamedaliyoussouf/tafsir-app/main/screenshots/pwa.jpg" width="32%" />
+ 
+ <img src="/screenshots/1.png" alt="Capture d'écran 1: Interface principale" width="32%" />
++  <img src="/screenshots/2.png" alt="Capture d'écran 2: Lecteur audio" width="32%" />
++  <img src="/screenshots/3.png" alt="Capture d'écran 3: Mode hors ligne" width="32%" />
 </div>
 
 ---
@@ -53,6 +54,6 @@
 ## Installation_locale
 
 ```bash
-git clone https://github.com/mohamedaliyoussouf/afar-quran.git
+git clone https://github.com/MOHAMED-ALI-YOUSSOUF/afar-quran.git
 cd afar-quran
 npm install
