@@ -33,9 +33,9 @@
 
 <div align="center">
  
- <img src="/screenshots/1.png" alt="Capture d'écran 1: Interface principale" width="32%" />
-+  <img src="/screenshots/2.png" alt="Capture d'écran 2: Lecteur audio" width="32%" />
-+  <img src="/screenshots/3.png" alt="Capture d'écran 3: Mode hors ligne" width="32%" />
+ <img src="public/screenshots/1.png" alt="Capture d'écran 1: Interface principale" width="32%" />
++  <img src="public/screenshots/2.png" alt="Capture d'écran 2: Lecteur audio" width="32%" />
++  <img src="public/screenshots/3.png" alt="Capture d'écran 3: Mode hors ligne" width="32%" />
 </div>
 
 ---
