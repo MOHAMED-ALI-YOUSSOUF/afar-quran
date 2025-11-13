@@ -38,7 +38,7 @@ export default function PageScrollNav({ currentPage, totalPages, surahName }: Pa
       <div
         ref={scrollRef}
         className="flex gap-2 py-3 px-4 overflow-x-auto scrollbar-hide snap-x snap-mandatory"
-        style={{ scrollSnapType: 'x mandatory' }}
+        style={{ scrollSnapType: 'x mandatory',  scrollbarColor: '#f59e0b #1e293b' }}
       >
         {Array.from({ length: totalPages }, (_, i) => {
           const page = i + 1

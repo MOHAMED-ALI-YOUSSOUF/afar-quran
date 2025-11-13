@@ -3,6 +3,9 @@
 import { useState, useEffect } from 'react'
 import SearchBar from '@/components/SearchBar'
 import QuranPageCard from '@/components/QuranPageCard'
+import Link from 'next/link'
+import { Button } from './ui/button'
+import { ArrowRight } from 'lucide-react'
 
 interface Page {
   _id: string
@@ -41,9 +44,24 @@ export default function AudiosClient({ pages }: AudiosClientProps) {
           </h1>
           <p className="text-xl text-slate-400">شرح الشيخ حمد بلغة العفر</p>
         </div>
+          
 
-        {/* Search */}
-        <SearchBar value={searchTerm} onChange={setSearchTerm} />
+     {/* Search + Retour */}
+        <div className="flex items-center gap-2">
+        
+          <Link href="/">
+            <Button variant="outline" className="gap-2 shrink-0">
+              <ArrowRight className="w-4 h-4" />
+              رجوع
+            </Button>
+          </Link>
+          <SearchBar 
+            value={searchTerm} 
+            onChange={setSearchTerm} 
+            className="flex-1" // prend tout l'espace disponible
+          />
+        </div>
+
 
         {/* Pages List */}
         <div className="mt-6">

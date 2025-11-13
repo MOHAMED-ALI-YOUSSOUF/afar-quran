@@ -31,7 +31,6 @@ export default function Home() {
           <div className="bg-slate-700 border-2 border-dashed border-slate-600 rounded-full w-32 h-32" />
           <div className="text-center space-y-2">
             <h2 className="text-2xl font-bold text-amber-400">الشيخ حمد</h2>
-            <p className="text-slate-400">عالم وداعية من جيبوتي</p>
           </div>
           <Link href="/audios" className="w-full">
             <Button size="lg" className="w-full bg-amber-600 hover:bg-amber-700 text-lg">
