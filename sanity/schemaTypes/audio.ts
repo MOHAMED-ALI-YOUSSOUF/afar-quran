@@ -28,7 +28,8 @@ export default defineType({
       name: 'audioFile',
       title: 'Audio Tafsir (en Afar)',
       type: 'file',
-      options: { accept: 'audio/*' },
+      options: { accept: 'audio/*,audio/mp4,.m4a'
+ },
       validation: (Rule) => Rule.required(),
     }),
   ],

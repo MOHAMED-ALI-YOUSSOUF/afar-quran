@@ -45,7 +45,7 @@ export default function AudioPlayer({ audioUrl, pageNumber , surahName}: AudioPl
         className="w-full rounded-lg bg-slate-800"
         style={{ filter: 'hue-rotate(0deg)' }}
       >
-        <source src={audioUrl} type="audio/mpeg" />
+        <source src={audioUrl} type="audio/mp4" />
         متصفحك لا يدعم عنصر الصوت.
       </audio>
 
